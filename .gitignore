@@ -9,7 +9,6 @@ datasets/
 # Abaikan model weights dan training results
 *.pth
 *.onnx
-runs/
 
 # Abaikan experiment results
 exp*/
