@@ -1,0 +1,6 @@
+train: datasets/smoking_combined/train/images
+val: datasets/smoking_combined/valid/images
+test: datasets/smoking_combined/test/images
+
+nc: 2
+names: ['cigarette', 'smoking']

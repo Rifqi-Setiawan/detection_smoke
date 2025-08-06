@@ -1,0 +1,12 @@
+# Abaikan folder virtual environment
+venv/
+
+# Abaikan folder dataset
+datasets/
+
+# (Opsional) Abaikan file besar lain
+*.zip
+*.tar
+*.tar.gz
+*.h5
+*.pt
