@@ -7,7 +7,6 @@ env/
 datasets/
 
 # Abaikan model weights dan training results
-*.pt
 *.pth
 *.onnx
 runs/
