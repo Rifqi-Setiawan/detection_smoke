@@ -1,12 +1,47 @@
 # Abaikan folder virtual environment
 venv/
+env/
+.venv/
 
 # Abaikan folder dataset
 datasets/
 
-# (Opsional) Abaikan file besar lain
+# Abaikan model weights dan training results
+*.pt
+*.pth
+*.onnx
+runs/
+
+# Abaikan experiment results
+exp*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
 *.zip
 *.tar
 *.tar.gz
+*.rar
+*.7z
+
+# Large files
 *.h5
-*.pt
+*.hdf5
